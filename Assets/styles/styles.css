@@ -84,3 +84,22 @@ p {
     text-align: center;
     margin-bottom: 85;
 }
+
+.image-rows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+    width: 95%;
+    height: auto;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.caption {
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
