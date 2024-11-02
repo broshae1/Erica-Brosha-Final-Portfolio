@@ -1,19 +1,40 @@
 .nav-list{
-    background: white;
-    height: 128px;
-    margin: 0;
-    padding:1rem 0;
     display:flex;
     justify-content: flex-start;
     align-items:center;
 }
 
+.header{
+    background: white;
+    height: 128px;
+    margin: 0;
+    padding:1rem 0;
+    align-items: center;
+}
+
 .nav-item {
     list-style: none;
     margin-left: 3rem;
-    font-family: Inter;
     text-decoration: none;
-    color: 17556E;
+    color: #17556E;
+}
+.nav-item:visited {
+    color: #17556E;
+}
+.nav-item:active {
+color: #17556E;
+}
+h1{
+    font-size: 36px;
+    color: #17556E;
+    font-weight: normal;
+    text-align: right;
+}
+
+h2{
+   font-weight: normal;
+   font-size: 30px;
+   color: #17556E;
 }
 body {
     background-color: #D4E8EE;
@@ -23,9 +44,13 @@ body {
     width: 100%;
     height: auto;
     text-align: center;
+    object-fit: cover;
+    margin-left: 0%;
+    margin-right: 0%;
+
 }
 #white-box{
     background-color:white;
-    height: 642px;
+    height: 1150px;
     margin-bottom: 70px;
 }
