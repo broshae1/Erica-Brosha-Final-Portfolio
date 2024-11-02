@@ -1,5 +1,6 @@
-.main-menu{
+.nav-list{
     background: white;
+    height: 128px;
     margin: 0;
     padding:1rem 0;
     display:flex;
@@ -7,14 +8,24 @@
     align-items:center;
 }
 
-header nav li {
+.nav-item {
     list-style: none;
-    margin-left: 2rem;
+    margin-left: 3rem;
     font-family: Inter;
     text-decoration: none;
     color: 17556E;
 }
 body {
     background-color: #D4E8EE;
-
+}
+#mushroom-banner {
+    margin-bottom: 61px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#white-box{
+    background-color:white;
+    height: 642px;
+    margin-bottom: 70px;
 }
