@@ -32,6 +32,9 @@ h1{
     font-weight: normal;
     text-align: center;
 }
+#title {
+    width: 50vw;
+}
 
 
 /*body*/
@@ -39,6 +42,7 @@ h2{
    font-weight: normal;
    font-size: 30px;
    color: #323D48;
+   margin-top: 5%;
 }
 body {
     background-color: #D4E8EE;
@@ -141,9 +145,3 @@ margin-right: 10%;
 
 /*COMMISSIONS PAGE*/
 
-.commissions-paragraph {
-    text-align: left;
-    align-items: center;
-
-
-}
