@@ -181,3 +181,27 @@ input, label {
     height: 200px;
     margin-bottom: 50px;
 }
+
+/*PORTFOLIO PAGE*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+}
+    
+.grid-item img{
+    width: 100%;
+    height: auto;
+}
+
+.single-image-grid{
+    text-align: center;
+    width:100%;
+    height: auto;
+    
+}
