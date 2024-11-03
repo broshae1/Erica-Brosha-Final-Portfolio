@@ -145,3 +145,40 @@ margin-right: 10%;
 
 /*COMMISSIONS PAGE*/
 
+input, label {
+    display:block;
+}
+
+#first-name {
+    margin-right:20px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+#last-name {
+    margin-right:20px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+#email {
+    width: 420px;
+    margin-bottom: 50px;
+}
+
+#checkbox1{
+    margin-right: 8px;
+}
+#checkbox-group{
+    display:flex;
+}
+#description {
+    width: 420px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+#questions {
+    width: 420px;
+    height: 200px;
+    margin-bottom: 50px;
+}
