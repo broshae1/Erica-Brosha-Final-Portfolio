@@ -27,10 +27,13 @@
 }
 .nav-item a {
     text-decoration: none;
+    color: #2E81A4;
+    transition: color .5s;
 }
-.nav-item:visited {
-    color: #17556E;
+.nav-item a:hover {
+    color: #323D48
 }
+
 .nav-item:active {
 color: #17556E;
 }
@@ -43,10 +46,14 @@ h1{
 }
 #title {
     width: 50vw;
+
 }
 
 #title a{
     text-decoration: none;
+    color: #17556E;
+    font-weight: normal;
+    text-align: center;
 }
 
 
