@@ -199,6 +199,19 @@ form {
     align-items: center;
 }
 
+.social-media-container {            
+    display: flex;        
+    gap: 10px;   
+    justify-content: right;  
+    margin-right: 20px;      
+}
+
+
+.social-media {
+    width: 35px;          
+    height: 35px;       
+}
+
 /*COMMISSIONS PAGE*/
 
 input, label {
