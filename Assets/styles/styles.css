@@ -43,6 +43,8 @@ h1{
     color: #17556E;
     font-weight: normal;
     text-align: center;
+    margin-left: auto;
+    justify-content: center;
 }
 #title {
     width: 50vw;
@@ -65,6 +67,10 @@ h2{
    color: #323D48;
    margin-top: 5%;
 }
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+}
 body {
     background-color: #D4E8EE;
 }
@@ -84,6 +90,20 @@ body {
     margin-bottom: 150px;
     display: flex;
 }
+#index-logo{
+    margin-left: 15%;
+    width: 850px;
+    height: 850px;
+    margin-top: 150px;
+
+}
+#white-box div{
+flex-direction: column;
+margin-top: 15%;
+margin-right: 15%;
+margin-left: 7%;
+}
+
 .button {
     background-color: #2E81A4;
     color: white;
@@ -95,6 +115,7 @@ body {
     text-decoration: none;
     display: inline-block;
     height: fit-content;
+    transition: background-color .5s;
 }
 .button:hover {
     background-color: #17556E;
@@ -136,6 +157,12 @@ margin-right: 10%;
     height: auto;
 }
 
+.unicorn-image {
+    width: 90%;
+    height: auto;
+
+}
+
 .image-container {
     text-align: center;
 }
@@ -151,18 +178,23 @@ margin-right: 10%;
     padding: 13px;
     margin: 10px;
     border-radius: 8px;
+    text-align: left;
 }
 #newsletter-signup {
-    text-align: left;
+    text-align: center;
     float: center;
-    
 }
+
+form {
+    text-align: center;
+}
+
 
 /*footers*/
 .footer {
     background: white;
     height: 256px;
-    margin: 0;
+    margin-top: 200px;
     padding:1rem 0;
     align-items: center;
 }
