@@ -174,9 +174,10 @@ margin-right: 10%;
 
 /*Email Signup*/
 .email-input {
-    width:10%;
+    width:25%;
     padding: 13px;
-    margin: 10px;
+    margin: auto;
+    margin-bottom: 10px;
     border-radius: 8px;
     text-align: left;
 }
@@ -185,7 +186,7 @@ margin-right: 10%;
     float: center;
 }
 
-form {
+.signup-form {
     text-align: center;
 }
 
@@ -238,8 +239,8 @@ input, label {
 #checkbox1{
     margin-right: 8px;
 }
-#checkbox-group{
-    display:flex;
+.checkbox-group input, .checkbox-group label{
+    display:inline;
 }
 #description {
     width: 420px;
@@ -274,4 +275,14 @@ input, label {
     width:100%;
     height: auto;
     
+}
+#bluejay-pendant{
+    position:relative;
+    top: -165px;
+    
+
+}
+#anna-comm{
+    position:relative;
+    top: 150px;
 }
