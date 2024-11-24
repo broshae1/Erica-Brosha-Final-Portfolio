@@ -7,7 +7,17 @@
     display:flex;
     justify-content: flex-start;
     align-items:center;
+    flex:1;
 }
+
+.right{
+    flex:1;
+}
+
+nav {
+    display: flex;
+}
+
 .nav-list li{
     list-style:none;
 }
@@ -37,6 +47,7 @@
 .nav-item:active {
 color: #17556E;
 }
+
 h1{
     font-size: 36px;
     font-family: Instrument Serif;
@@ -56,6 +67,11 @@ h1{
     color: #17556E;
     font-weight: normal;
     text-align: center;
+    transition: color .5s;
+}
+
+#title a:hover {
+color:#323D48;
 }
 
 
@@ -213,6 +229,11 @@ margin-right: 10%;
     height: 35px;       
 }
 
+#tiktok{
+    position:relative;
+    top:-5px;
+}
+
 /*COMMISSIONS PAGE*/
 
 input, label {
@@ -223,17 +244,20 @@ input, label {
     margin-right:20px;
     margin-bottom: 10px;
     width: 200px;
+    padding: 5px;
 }
 
 #last-name {
     margin-right:20px;
     margin-bottom: 10px;
     width: 200px;
+    padding: 5px;
 }
 
 #email {
     width: 420px;
     margin-bottom: 50px;
+    padding: 5px;
 }
 
 #checkbox1{
@@ -285,4 +309,19 @@ input, label {
 #anna-comm{
     position:relative;
     top: 150px;
+}
+
+#wolf{
+    position:relative;
+    top: 40px;
+}
+
+#wolf-caption{
+    position:relative;
+    top: 40px;
+}
+
+#siren{
+    position:relative;
+    top:-375px;
 }
