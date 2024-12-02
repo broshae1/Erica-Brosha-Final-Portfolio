@@ -149,7 +149,7 @@ p {
     font-weight: normal;
 }
 
-/* Portfolio Section*/
+/* Home Page Portfolio Section*/
 .artwork-sections {
 margin-left: 10%;
 margin-right: 10%;
@@ -186,6 +186,12 @@ margin-right: 10%;
 .caption {
     margin-top: 10px;
     margin-bottom: 15px;
+}
+
+@media (max-width:1300px) {
+    .image-rows {
+        display:block;
+    }
 }
 
 /*Email Signup*/
@@ -300,28 +306,40 @@ input, label {
     height: auto;
     
 }
-#bluejay-pendant{
-    position:relative;
-    top: -165px;
-    
-
+#pixie-parade {
+    width: 204%;
 }
-#anna-comm{
-    position:relative;
-    top: 150px;
+#sunny-duck {
+    width: 204%;
 }
-
-#wolf{
-    position:relative;
-    top: 40px;
+#comm3 {
+    width: 204%;
 }
 
-#wolf-caption{
-    position:relative;
-    top: 40px;
-}
-
-#siren{
-    position:relative;
-    top:-375px;
+@media (max-width: 1300px) {
+    .grid-container {
+        display:block;
+    }
+    .gid-item img{
+        width:95%;
+        height:auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #pixie-parade {
+        width:100%;
+        height:auto;
+    }
+    #sunny-duck {
+        width:100%;
+        height:auto;
+    }
+    #comm3 {
+        width:100%;
+        height:auto;
+    }
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
