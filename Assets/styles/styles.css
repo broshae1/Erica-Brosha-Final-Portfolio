@@ -192,6 +192,12 @@ margin-right: 10%;
     .image-rows {
         display:block;
     }
+    .caption {
+        margin-bottom: 50px;
+    }
+    p .captions {
+        margin-bottom: 50px;
+    }
 }
 
 /*Email Signup*/
