@@ -113,10 +113,11 @@ body {
     margin-bottom: 150px;
     display: flex;
 }
-#index-logo{
+
+#white-box img{
+    width: 45%;
+    height: auto;
     margin-left: 15%;
-    width: 850px;
-    height: 850px;
     margin-top: 150px;
 
 }
@@ -125,6 +126,21 @@ flex-direction: column;
 margin-top: 15%;
 margin-right: 15%;
 margin-left: 7%;
+}
+
+@media (max-width:1300px) {
+    #white-box{ 
+        flex-direction: column;
+    }
+    #white-box div{
+        text-align: center;
+        position: relative;
+        top: -150px;
+    }
+    #white-box img{
+        text-align: center;
+        width: 50%;
+    }
 }
 
 .button {
@@ -205,6 +221,7 @@ margin-right: 10%;
     p .captions {
         margin-bottom: 50px;
     }
+
 }
 
 /*Email Signup*/
