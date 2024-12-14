@@ -18,6 +18,41 @@ nav {
     display: flex;
 }
 
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 350px;
+    width: 250px;
+    z-index: 999;
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.menu-button{
+    display: none;
+}
+@media (max-width:1300px) {
+   .hideOnMobile {
+    display: none;
+   }
+   .menu-button{
+    display: block;
+   }
+}
+
+.sidebar li {
+    width: 100%;
+}
+.sidebar a {
+    width: 100%;
+}
+
 .nav-list li{
     list-style:none;
 }
